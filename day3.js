@@ -2,9 +2,9 @@ alert('Bem-vindo ao Jogo da Escolha!');
 
 const escolha = prompt('Deseja seguir para área de Front-End ou Back-End ?');
 
-if(escolha === 'Front-End'){
+if (escolha === 'Front-End') {
     prompt('Deseja aprender React ou Vue ?');
-} else if(escolha === 'Back-End') {
+} else if (escolha === 'Back-End') {
     prompt('Deseja aprender C# ou Java ?');
 } else {
     alert('Valor inválido!');
